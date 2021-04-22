@@ -12,8 +12,8 @@ import (
 
 var (
 	Logger           *oplogging.Logger
-	Module           = "Gimme"
-	prefix           = "[Gimme]"
+	Module           = "Miolyn"
+	prefix           = "[Miolyn]"
 	level            = "DEBUG"
 	logDir           = "log"
 	defaultFormatter = `%{color:bold} %{time:2006/01/02 15:04:05} %{shortfile} ▶ [%{level:.6s}] %{message}%{color:reset}`

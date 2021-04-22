@@ -7,7 +7,7 @@ import (
 	"github.com/dgrijalva/jwt-go"
 )
 
-const secret_key = "elyar"
+const secret_key = "miolyn"
 
 type JWT struct {
 	SigningKey []byte //jwt签名

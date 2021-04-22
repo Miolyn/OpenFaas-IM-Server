@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Title</title>
+		<!-- 引入样式 -->
+		<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+		<style type="text/css">
+			html,
+			body,
+			#app,
+			.el-container {
+				padding: 0px;
+				margin: 0px;
+				height: 100%;
+			}
+
+			.text {
+				font-size: 14px;
+			}
+
+			.item {
+				margin-bottom: 18px;
+			}
+
+			.clearfix:before,
+			.clearfix:after {
+				display: table;
+				content: "";
+			}
+
+			.clearfix:after {
+				clear: both
+			}
+
+			.box-card {
+				width: 100%;
+				height: 100%;
+			}
+
+
+			.wrapper {
+				height: 100%;
+				display: grid;
+				grid-gap: 20px;
+				grid-template-columns: 100%;
+				grid-template-rows: minmax(auto, 89%) 90px;
+			}
+
+
+
+			.el-scrollbar__wrap {
+				overflow-x: hidden;
+			}
+
+			.talk {
+				display: flex;
+				justify-content: center;
+				/*主轴上居中*/
+				align-items: center;
+				/*侧轴上居中*/
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<el-container>
+				<el-aside width="25%">
+
+					<!-- <h5>Miolyn-OpenFaas</h5> -->
+					<div style="margin-top: 20px;">
+						<div v-if="!loginSuc">
+							<el-form :inline="true" :model="form" class="demo-form-inline">
+								<el-form-item label="username" style="margin-left: 20px;">
+									<el-input v-model="username" placeholder="username"></el-input>
+								</el-form-item>
+								<el-form-item>
+									<el-button type="primary" @click="onSubmit">登陆</el-button>
+								</el-form-item>
+							</el-form>
+						</div>
+						<div v-else>
+							<i class="el-icon-user-solid" style="margin-right: 20px; margin-left: 20px;"></i>
+							<el-tag effect="dark" style="font-size: 20px;">{{username}}</el-tag>
+						</div>
+					</div>
+					<el-divider></el-divider>
+					<div>
+						<el-menu default-active="2" class="el-menu-vertical-demo" @select="handleSelect">
+							<div v-for="it in onelineUsername" style="width: 95%;">
+								<el-badge :value="getUnread(it.user_id)" class="item" type="primary" style="width: 100%; height: 100%;">
+									<el-menu-item :index="it.user_id" width="100%">
+										<i class="el-icon-user"></i>
+										<span slot="title" style="width: 100%; height: 100%; font-size: 20px;">{{it.username}}</span>
+									</el-menu-item>
+								</el-badge>
+								<el-divider></el-divider>
+							</div>
+
+
+
+						</el-menu>
+					</div>
+
+
+
+				</el-aside>
+				<el-main>
+					<div class="wrapper">
+
+						<div>
+							<el-scrollbar  style="height:100%;width: 100%">
+								<el-card class="box-card" height="100%">
+									<div slot="header" class="clearfix" style="font-size: 20px;">
+										<span>{{talkTo}}</span>
+									</div>
+
+									<div v-for="item in tableData" class="text item">
+
+										<el-row :gutter="12" >
+
+											<el-col :span="12" style="min-height:1px;">
+												<el-card shadow="always" v-if="item.from == userId && isMessagDisplay(item)">
+													{{username}}: {{item.content}}
+												</el-card>
+											</el-col>
+											<el-col :span="12" style="min-height:1px;">
+												<el-card shadow="hover" v-if="item.to == userId && isMessagDisplay(item)">
+													{{talkTo}}: {{item.content}}
+												</el-card>
+											</el-col>
+										</el-row>
+									</div>
+								</el-card>
+							</el-scrollbar>
+						</div>
+						<div style="height: 90px;">
+							<el-card class="box-card" height="100%">
+								<el-row class="talk">
+									<el-col :span="22">
+										<el-input type="textarea" :rows="2" placeholder="请输入内容" v-model="message" style="display: inline-block;">
+										</el-input>
+									</el-col>
+									<el-col :span="2">
+										<el-button type="primary" round @click="sendMessage" style="margin-top: 8px; margin-left: 16px;">发送</el-button>
+									</el-col>
+								</el-row>
+
+
+							</el-card>
+
+						</div>
+					</div>
+
+					<!-- <el-divider></el-divider> -->
+
+
+
+				</el-main>
+			</el-container>
+
+
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<!-- 引入组件库 -->
+		<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		<script>
+			const heartCheck = {
+				timeout: 10 * 1000,
+				serverTimeout: 9 * 1000,
+				timer: null,
+				serverTimer: null,
+				reset() {
+					this.timer && clearTimeout(this.timer)
+					// this.serverTimer && clearTimeout(this.serverTimer)
+				},
+				start(ws) {
+					this.reset()
+
+					this.timer = setTimeout(() => {
+						console.log('发送心跳,后端收到后，返回一个心跳消息')
+						// onmessage拿到返回的心跳就说明连接正常
+						ws.send(JSON.stringify({
+							heart: 1
+						}))
+						// this.serverTimer = setTimeout(() => {
+						// 	// 如果超过一定时间还没响应(响应后触发重置)，说明后端断开了
+						// 	console.log('服务哦未响应 断开websocket')
+						// 	ws.close()
+						// }, this.serverTimeout)
+					}, this.timeout)
+				}
+			}
+
+			let app = new Vue({
+				el: '#app',
+				data: {
+					form: {
+						content: ''
+					},
+					talkTo: '',
+					toUserId: '',
+					onlineTimer: '',
+					password: 'admin',
+					username: 'admin',
+					message: 'hello',
+					phone: "18702016454",
+					connectBase: "ws://121.36.35.85:8082",
+					// connectBase: "ws://127.0.0.1:31112/function/connect",
+					token: "",
+					loginSuc: false,
+					websocketSuc: false,
+					userId: '',
+					deviceId: 123,
+					socket: null,
+					tableData: [],
+					onlineData: [],
+					onelineUsername: [],
+					userId2username: {},
+					displayData: [],
+					unread: {
+
+					}
+				},
+				computed: {
+					isShow() {
+						return this.loginSuc
+					},
+					getUnread() {
+						return function(i) {
+							if (this.unread[i] == 0) {
+								return '';
+							}
+							return this.unread[i]
+						}
+					},
+					isMessagDisplay(){
+						return function(item){
+							console.log('computed')
+							let a1 = this.toUserId != ''
+							let a2 = (item.from == this.userId && item.to == this.toUserId)
+							let a3 = (item.from == this.toUserId && item.to == this.userId)
+							let a4 = a2 || a3
+							let a5 = a1 && a4
+							return a5
+						}
+					}
+				},
+				mounted() {
+					// this.initWebSocket()
+					this.onlineTimer = setInterval(this.onFlush, 1000);
+				},
+				beforeDestroy() {
+					clearInterval(this.onlineTimer);
+				},
+				methods: {
+					reconnect() {
+						console.log('尝试重连')
+						if (this.lockReconnect || this.maxReconnect <= 0) {
+							return
+						}
+						setTimeout(() => {
+							// this.maxReconnect-- // 不做限制 连不上一直重连
+							// this.initWebSocket()
+						}, 60 * 1000)
+					},
+					initWebSocket() {
+						try {
+							if ('WebSocket' in window) {
+								let url = this.connectBase + '/ws?' + 'token=' + this.token
+								// let url = 'ws://127.0.0.1:8084/ws?' + 'token=' + this.token
+								console.log(url)
+								this.socket = new WebSocket(url)
+							} else {
+								console.log('您的浏览器不支持websocket')
+							}
+							console.log('连接成功')
+							this.socket.onopen = this.websocketonopen
+							this.socket.onerror = this.websocketonerror
+							this.socket.onmessage = this.websocketonmessage
+							this.socket.onclose = this.websocketclose
+						} catch (e) {
+							this.reconnect()
+							// log.console('重新连接终端')
+						}
+					},
+					websocketonopen() {
+						console.log('WebSocket连接成功', this.socket.readyState)
+						heartCheck.start(this.socket)
+						this.websocketSuc = true;
+						// this.socket.send('发送数据')
+						this.websocketsend()
+					},
+					websocketonerror(e) {
+						console.log('WebSocket连接发生错误', e)
+						this.reconnect()
+					},
+					websocketonmessage(e) {
+						// console.log(e)
+						let data = JSON.parse(e.data).data
+						console.log('得到响应', data)
+						// 消息获取成功，重置心跳
+						this.tableData.push({
+							from: data.from_uid,
+							to: data.to_id,
+							content: data.content.content
+						})
+						if (this.toUserId != data.from_uid) {
+							console.log(this.unread[data.from_uid])
+							if (isNaN(this.unread[data.from_uid])) {
+								this.unread[data.from_uid] = 0;
+							}
+							this.unread[data.from_uid] += 1
+						}
+						this.updated();
+						console.log('成功渲染消息')
+						heartCheck.start(this.socket)
+					},
+					websocketclose(e) {
+						console.log('connection closed (' + e.code + ')')
+						this.reconnect()
+					},
+					websocketsend() {
+						let data = {
+							id: 'a1b2c3'
+						}
+						this.socket.send(JSON.stringify(data))
+					},
+					handleSelect(key, keyPath) {
+						console.log(key, keyPath);
+						this.talkTo = this.userId2username[key];
+						this.toUserId = key;
+						console.log(this.talkTo)
+						console.log(this.toUserId)
+						console.log(typeof this.toUserId)
+						this.unread[key] = 0;
+						console.log(this.tableData)
+					},
+					onSubmit() {
+						console.log('click login');
+						console.log(this.phone);
+						// this.initWebSocket();
+						// return
+						let myurl = 'http://119.3.229.43:31112/function/proxy/login'
+						let params = {
+							username: this.username,
+							password: this.password
+						}
+						axios
+							.post(myurl, params)
+							.then(function(response) {
+								console.log('---')
+								console.log(response.data);
+								console.log(response.data.data.token);
+								console.log(response.data.data.user_id);
+								this.token = response.data.data.token;
+								this.userId = response.data.data.user_id;
+								this.loginSuc = true;
+								console.log(this.loginSuc);
+								console.log('正在尝试连接websocket');
+								this.initWebSocket();
+								this.onFlush();
+
+							}.bind(this));
+						console.log('end of onClick');
+					},
+					onFlush() {
+						// console.log('click flush');
+						let myurl = 'http://119.3.229.43:31112/function/proxy/online'
+
+						axios
+							.get(myurl, {})
+							.then(function(response) {
+								// console.log('---')
+								// console.log(response.data);
+								if (response.data.data == undefined) {
+									return
+								}
+								this.onlineData = response.data.data;
+								tmp = {}
+								for (j = 0, len = this.onlineData.length; j < len; j++) {
+									this.userId2username[this.onlineData[j].user_id] = this.onlineData[j].username
+									tmp[this.onlineData[j].user_id] = 1
+									// console.log(this.onlineData[j].user_id);
+								}
+								this.onelineUsername = []
+								for (let i in this.userId2username) {
+									if (tmp[i] != 1){
+										continue
+									}
+									this.onelineUsername.push({
+										user_id: i,
+										username: this.userId2username[i]
+									})
+								}
+								// console.log(this.onlineData[0].user_id)
+								// console.log(this.onlineData)
+								// this.onlineData.sort(function(a, b){
+								// 	return a.user_id - b.user_id;
+								// })
+							}.bind(this));
+						// console.log('end of onClick');
+					},
+					sendMessage() {
+						console.log('in to  send message');
+						let myurl = 'http://119.3.229.43:31112/function/proxy/send_msg';
+						// let myurl = 'http://127.0.0.1:8084/send_msg';
+						let params = {
+							device_id: 123,
+							from_uid: this.userId,
+							to_id: this.toUserId,
+							receiver_type: 1,
+							message_type: 1,
+							content: this.message
+						}
+						console.log(params)
+						axios
+							.post(myurl, params)
+							.then(function(response) {
+								console.log('---')
+								console.log(response.data)
+								if (response.data.code == 0) {
+									this.tableData.push({
+										from: this.userId,
+										to: this.toUserId,
+										content: this.message
+									})
+									console.log(typeof this.tableData[0].from)
+								}
+
+								// this.initWebSocket();
+							}.bind(this))
+					},
+				},
+
+				destroyed() {
+					this.socket.close()
+				}
+			})
+		</script>
+	</body>
+</html>

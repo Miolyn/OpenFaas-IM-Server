@@ -777,3 +777,4 @@
 [Gimme]2021/04/20  2021/04/20 09:56:03 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
 [Gimme]2021/04/20  2021/04/20 09:56:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
 [Gimme]2021/04/20  2021/04/20 09:56:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/21  2021/04/21 17:36:08 shortCut.go:9 ▶ [DEBUG] redis connect
