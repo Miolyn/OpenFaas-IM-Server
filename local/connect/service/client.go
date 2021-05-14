@@ -132,24 +132,7 @@ func (c *client) Read() <-chan *Message {
 	return c.ReadChan
 }
 
-// type Client struct {
-// 	Addr     string //客户端地址
-// 	UserId   string //用户ID uuid
-// 	ConnID   int64  //连接Id 全局唯一
-// 	DeviceId int64  //设备Id
-// 	Token    string //登陆令牌
-// 	AppID    int64
 
-// 	Send chan Message //待发送数据
-
-// 	Conn *websocket.Conn //用户连接
-
-// 	LoginTime     int64 //unix时间戳
-// 	HeartBeatTime int64 //心跳时间
-
-// 	Hub Hub //属于的处理器
-
-// }
 
 // readPump pumps messages from the websocket connection to the HubSrv
 func (c *client) readPump(ctx context.Context) {

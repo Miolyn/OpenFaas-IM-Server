@@ -10,6 +10,9 @@ package pb
 
 import (
 	"context"
+	"io"
+	"net/http"
+
 	"github.com/golang/protobuf/descriptor"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes/empty"
@@ -20,8 +23,6 @@ import (
 	"google.golang.org/grpc/grpclog"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
-	"io"
-	"net/http"
 )
 
 // Suppress "imported and not used" errors
@@ -90,6 +91,7 @@ func local_request_Message_GetUserOnline_0(ctx context.Context, marshaler runtim
 // StreamingRPC :currently unsupported pending https://github.com/grpc/grpc-go/issues/906.
 // Note that using this registration option will cause many gRPC library features to stop working. Consider using RegisterMessageHandlerFromEndpoint instead.
 func RegisterMessageHandlerServer(ctx context.Context, mux *runtime.ServeMux, server MessageServer) error {
+
 	mux.Handle("POST", pattern_Message_Notify_0, func(w http.ResponseWriter, req *http.Request, pathParams map[string]string) {
 		ctx, cancel := context.WithCancel(req.Context())
 		defer cancel()
@@ -192,6 +194,7 @@ func RegisterMessageHandlerClient(ctx context.Context, mux *runtime.ServeMux, cl
 			runtime.HTTPError(ctx, mux, outboundMarshaler, w, req, err)
 			return
 		}
+
 		forward_Message_Notify_0(ctx, mux, outboundMarshaler, w, req, resp, mux.GetForwardResponseOptions()...)
 
 	})

@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-// TimelineMap struct is a row record of the timeline_map table in the finders_imdb database
+
 type TimelineMap struct {
 	TimelineID int64      `gorm:"primary_key;column:timeline_id;type:bigint;" json:"timeline_id"` // timeline 主键
 	Type       int        `gorm:"column:type;type:int;" json:"type"`                              // timeline类型：1.个人 2.单聊 3.群聊

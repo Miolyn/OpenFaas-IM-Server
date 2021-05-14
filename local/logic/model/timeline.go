@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-// Timeline struct is a row record of the timeline table in the finders_imdb database
+
 type Timeline struct {
 	ID         int64      `gorm:"primary_key;column:id;type:bigint;" json:"id"`
 	TimelineID int64      `gorm:"column:timeline_id;type:bigint;" json:"timeline_id"` // timeline ID
@@ -17,7 +17,7 @@ type Timeline struct {
 	DeletedAt  *time.Time `gorm:"column:deleted_at;type:datetime;" json:"deleted_at"`
 }
 
-// TableName sets the insert table name for this struct type
+
 func (t *Timeline) TableName() string {
 	return "timeline"
 }
