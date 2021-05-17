@@ -1,0 +1,215 @@
+[Gimme]2021/04/17  2021/04/17 09:26:35 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.FromUID' Error:Field validation for 'FromUID' failed on the 'required' tag
+[Gimme]2021/04/17  2021/04/17 09:31:44 message.go:20 ▶ [DEBUG] json: cannot unmarshal string into Go struct field MessageModel.device_id of type int64
+[Gimme]2021/04/17  2021/04/17 09:35:39 init_db.go:59 ▶ [CRITIC] 123456 链接异常 :Error 1045: Access denied for user 'imdb'@'202.113.176.7' (using password: YES)
+[Gimme]2021/04/17  2021/04/17 09:36:28 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/17  2021/04/17 09:36:44 message_service.go:124 ▶ [ERROR] getTimelineId error: 数据库查询失败 ：Error 1364: Field 'timeline_id' doesn't have a default value
+[Gimme]2021/04/17  2021/04/17 09:36:44 message_service.go:124 ▶ [ERROR] getTimelineId error: 数据库查询失败 ：Error 1364: Field 'timeline_id' doesn't have a default value
+[Gimme]2021/04/17  2021/04/17 09:36:44 message_service.go:124 ▶ [ERROR] getTimelineId error: 数据库查询失败 ：Error 1364: Field 'timeline_id' doesn't have a default value
+[Gimme]2021/04/17  2021/04/17 09:39:05 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 0 2 1 1 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:39:06 shortCut.go:9 ▶ [DEBUG] logic server error:send notify error:user not online
+[Gimme]2021/04/17  2021/04/17 09:39:06 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 2 0 2 1 1 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:39:06 shortCut.go:9 ▶ [DEBUG] logic server error:send notify error:user not online
+[Gimme]2021/04/17  2021/04/17 09:39:06 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 3 0 2 1 1 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 2021-04-17 09:39:05.861035 +0800 CST m=+157.702864129 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:39:06 shortCut.go:9 ▶ [DEBUG] logic server error:send notify error:user not online
+[Gimme]2021/04/17  2021/04/17 09:45:44 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/17  2021/04/17 09:46:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 2 1 3 1 1 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:46:01 shortCut.go:9 ▶ [DEBUG] logic server error:send notify error:user not online
+[Gimme]2021/04/17  2021/04/17 09:46:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 3 1 3 1 1 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:46:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 1 3 1 1 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 2021-04-17 09:46:01.033359 +0800 CST m=+16.710060901 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:46:01 shortCut.go:9 ▶ [DEBUG] logic server error:send notify error:user not online
+[Gimme]2021/04/17  2021/04/17 09:56:40 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/17  2021/04/17 09:57:05 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 2 2 4 1 1 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:57:05 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 2 4 1 1 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 <nil>}
+[Gimme]2021/04/17  2021/04/17 09:57:05 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 3 2 4 1 1 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 2021-04-17 09:57:05.090554 +0800 CST m=+24.267106730 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:01:03 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/17  2021/04/17 10:01:41 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 2 3 5 1 1 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:01:41 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 3 3 5 1 1 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:01:41 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 3 5 1 1 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 2021-04-17 10:01:41.237922 +0800 CST m=+37.642363535 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:02:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 3 4 6 1 1 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:02:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 2 4 6 1 1 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 <nil>}
+[Gimme]2021/04/17  2021/04/17 10:02:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 4 6 1 1 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 2021-04-17 10:02:10.777697 +0800 CST m=+67.181835337 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:49:02 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 10:53:08 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 1 5 7 1 1 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:53:08 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 0 7 1 1 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:53:08 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 5 0 7 1 1 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 2021-04-19 10:53:08.487876 +0800 CST m=+245.961383240 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:54:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 1 8 1 1 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:54:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 0 8 1 1 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:54:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 0 8 1 1 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 2021-04-19 10:54:22.077218 +0800 CST m=+319.549511215 <nil>}
+[Gimme]2021/04/19  2021/04/19 10:59:10 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 10:59:57 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 11:00:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 2 9 1 1 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 <nil>}
+[Gimme]2021/04/19  2021/04/19 11:00:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 1 9 1 1 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 <nil>}
+[Gimme]2021/04/19  2021/04/19 11:00:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 1 9 1 1 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 2021-04-19 11:00:54.483308 +0800 CST m=+56.593643007 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:21:01 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 16:33:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 2 10 1 1 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:33:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 3 10 1 1 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:33:43 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 16:33:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 2 10 1 1 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 2021-04-19 16:33:43.114734 +0800 CST m=+763.179263440 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:36:31 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:36:42 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:37:52 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:37:59 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:38:51 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:38:58 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:39:23 shortCut.go:9 ▶ [DEBUG] funcName: OpenFaaS-Logic/pkg/dto.(*MessageModel).Check file: /Users/liyining/go/src/OpenFaaS-Logic/template/golang-http/pkg/dto/message.go line: 53  err:  Key: 'MessageModel.DeviceID' Error:Field validation for 'DeviceID' failed on the 'required' tag
+[Gimme]2021/04/19  2021/04/19 16:42:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 3 11 1 1 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:42:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 3 11 1 1 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:42:21 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 16:42:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 4 11 1 1 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 2021-04-19 16:42:20.903693 +0800 CST m=+1280.999217332 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:49:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 4 12 1 1 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:49:22 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 16:49:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 4 12 1 1 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:49:22 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 5 12 1 1 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 2021-04-19 16:49:22.443837 +0800 CST m=+1702.435205920 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:50:03 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 6 13 1 1 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:50:03 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 5 13 1 1 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 <nil>}
+[Gimme]2021/04/19  2021/04/19 16:50:03 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 16:50:05 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 5 13 1 1 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 2021-04-19 16:50:02.80893 +0800 CST m=+1742.802115019 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:17:21 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 18:17:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 6 14 1 1 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:17:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 7 14 1 1 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:17:50 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:17:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 6 14 1 1 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 2021-04-19 18:17:50.738575 +0800 CST m=+29.762305213 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:19:40 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 7 15 1 1 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:19:40 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 8 15 1 1 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:19:40 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:19:40 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 7 15 1 1 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 2021-04-19 18:19:40.311611 +0800 CST m=+139.341902629 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:21:30 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 8 16 1 1 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:21:30 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 8 16 1 1 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:21:30 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:21:30 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 9 16 1 1 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 2021-04-19 18:21:30.555368 +0800 CST m=+249.592260756 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:42:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 9 17 1 1 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:42:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 10 17 1 1 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:42:10 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:42:10 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 9 17 1 1 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 2021-04-19 18:42:10.569163 +0800 CST m=+1489.710500894 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:47:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 10 18 1 1 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:47:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 11 18 1 1 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:47:58 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:47:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 10 18 1 1 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 2021-04-19 18:47:58.381251 +0800 CST m=+1837.543416183 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:17 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 11 19 1 1 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:17 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 12 19 1 1 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:18 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:49:18 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 11 19 1 1 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 2021-04-19 18:49:17.853072 +0800 CST m=+1917.019996355 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 12 20 1 1 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 13 20 1 1 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:49:58 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:49:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 12 20 1 1 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 2021-04-19 18:49:58.342335 +0800 CST m=+1957.511683612 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:51:37 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 13 21 1 1 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:51:37 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 14 21 1 1 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:51:37 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:51:37 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 13 21 1 1 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 2021-04-19 18:51:37.763777 +0800 CST m=+2056.939079197 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:52:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 14 22 1 1 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:52:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 15 22 1 1 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:52:33 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:52:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 14 22 1 1 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 2021-04-19 18:52:33.650825 +0800 CST m=+2112.829474615 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:54:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 15 23 1 1 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:54:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 16 23 1 1 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:54:56 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:54:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 15 23 1 1 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 2021-04-19 18:54:56.21923 +0800 CST m=+2253.396330092 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:02 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 16 24 1 1 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:02 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 17 24 1 1 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:02 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:59:02 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 16 24 1 1 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 2021-04-19 18:59:02.271611 +0800 CST m=+2499.441328793 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 17 25 1 1 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 18 25 1 1 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:44 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:59:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 17 25 1 1 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 2021-04-19 18:59:44.330162 +0800 CST m=+2541.498618129 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:57 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 18 26 1 1 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 19 26 1 1 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 <nil>}
+[Gimme]2021/04/19  2021/04/19 18:59:58 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 18:59:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 18 26 1 1 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 2021-04-19 18:59:57.874443 +0800 CST m=+2555.042492871 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:00:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 19 27 1 1 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:00:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 20 27 1 1 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:00:13 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:00:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 19 27 1 1 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 2021-04-19 19:00:13.300035 +0800 CST m=+2570.467622651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:03:39 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 20 28 1 1 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:03:39 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 21 28 1 1 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:03:39 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:03:39 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 20 28 1 1 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 2021-04-19 19:03:39.598121 +0800 CST m=+2776.759519667 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:04:20 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 21 29 1 1 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:04:20 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 22 29 1 1 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:04:20 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:04:20 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 21 29 1 1 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 2021-04-19 19:04:20.235537 +0800 CST m=+2817.395716783 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:06:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 22 30 1 1 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:06:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 23 30 1 1 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:06:56 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:06:56 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 22 30 1 1 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 2021-04-19 19:06:56.234286 +0800 CST m=+2973.389785641 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:10:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 23 31 1 1 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:10:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 24 31 1 1 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:10:34 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:10:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 23 31 1 1 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 2021-04-19 19:10:34.617502 +0800 CST m=+3190.923892225 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:15:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 24 32 1 1 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:15:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 25 32 1 1 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:15:54 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:15:54 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 24 32 1 1 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 2021-04-19 19:15:54.43343 +0800 CST m=+3510.730226650 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:17 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 25 33 1 1 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:17 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 26 33 1 1 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:17 shortCut.go:9 ▶ [DEBUG] resp parse error :unexpected end of JSON input
+[Gimme]2021/04/19  2021/04/19 19:29:17 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 25 33 1 1 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 2021-04-19 19:29:17.057812 +0800 CST m=+4312.825592084 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:51 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 26 34 1 1 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:51 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 27 34 1 1 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:29:51 shortCut.go:9 ▶ [DEBUG] resp parse error :unexpected end of JSON input
+[Gimme]2021/04/19  2021/04/19 19:29:51 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 26 34 1 1 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 2021-04-19 19:29:51.248386 +0800 CST m=+4347.015140200 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:30:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 27 35 1 1 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:30:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 28 35 1 1 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:30:33 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 27 35 1 1 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 2021-04-19 19:30:33.10858 +0800 CST m=+4388.874078306 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:32:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 28 36 1 1 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:32:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 29 36 1 1 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:32:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 28 36 1 1 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 2021-04-19 19:32:13.203163 +0800 CST m=+4488.965659037 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:33:15 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 29 37 1 1 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:33:15 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 30 37 1 1 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:33:15 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 29 37 1 1 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 2021-04-19 19:33:15.636376 +0800 CST m=+4551.396998820 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:35:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 30 38 1 1 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:35:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 31 38 1 1 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:35:21 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 30 38 1 1 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 2021-04-19 19:35:21.23294 +0800 CST m=+4676.989795651 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:16 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 31 39 1 1 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:16 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 32 39 1 1 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:16 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 31 39 1 1 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 2021-04-19 19:36:16.409765 +0800 CST m=+4732.164964945 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:49 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 32 40 1 1 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:49 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 33 40 1 1 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:36:49 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 32 40 1 1 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 2021-04-19 19:36:49.43925 +0800 CST m=+4765.193459517 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:38:04 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 33 41 1 1 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:38:04 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 34 41 1 1 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:38:04 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 33 41 1 1 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 2021-04-19 19:38:04.526931 +0800 CST m=+4840.278888033 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:39:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 34 42 1 1 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:39:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 35 42 1 1 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:39:13 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 34 42 1 1 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 2021-04-19 19:39:13.672073 +0800 CST m=+4909.310018393 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:06 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 35 43 1 1 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:07 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 36 43 1 1 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:07 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 35 43 1 1 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 2021-04-19 19:40:06.90744 +0800 CST m=+4962.543785432 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 37 44 1 1 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 36 44 1 1 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:40:50 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 36 44 1 1 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 2021-04-19 19:40:50.158238 +0800 CST m=+5005.793285390 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 37 45 1 1 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 38 45 1 1 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:34 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:41:34 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 37 45 1 1 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 2021-04-19 19:41:34.221151 +0800 CST m=+5049.854876514 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 38 46 1 1 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 39 46 1 1 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:41:43 shortCut.go:9 ▶ [DEBUG] logic server error:
+[Gimme]2021/04/19  2021/04/19 19:41:43 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 38 46 1 1 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 2021-04-19 19:41:43.636553 +0800 CST m=+5059.269996747 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:25 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 39 47 1 1 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:25 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 40 47 1 1 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:25 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 39 47 1 1 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 2021-04-19 19:42:25.641348 +0800 CST m=+5101.273531115 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:31 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 41 48 1 1 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:31 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 40 48 1 1 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:42:31 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 40 48 1 1 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 2021-04-19 19:42:31.687808 +0800 CST m=+5107.319810465 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:44:18 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 41 49 1 1 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:44:18 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 41 49 1 1 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:44:18 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 42 49 1 1 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 2021-04-19 19:44:18.007093 +0800 CST m=+5213.635905391 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:45:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 42 50 1 1 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:45:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 43 50 1 1 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:45:01 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 42 50 1 1 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 2021-04-19 19:45:01.090896 +0800 CST m=+5256.718416541 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:46:11 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 44 51 1 1 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:46:11 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 43 51 1 1 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:46:11 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 43 51 1 1 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 2021-04-19 19:46:11.750871 +0800 CST m=+5327.376271340 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:47:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 45 52 1 1 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:47:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 44 52 1 1 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:47:44 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 44 52 1 1 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 2021-04-19 19:47:43.949677 +0800 CST m=+5419.572311479 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:53:45 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 46 53 1 1 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:53:45 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 45 53 1 1 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 <nil>}
+[Gimme]2021/04/19  2021/04/19 19:53:46 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 45 53 1 1 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 2021-04-19 19:53:45.864337 +0800 CST m=+5781.460467776 <nil>}
+[Gimme]2021/04/20  2021/04/20 08:52:28 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/20  2021/04/20 09:54:58 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/20  2021/04/20 09:55:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 6 46 54 1 1 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 <nil>}
+[Gimme]2021/04/20  2021/04/20 09:55:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 4 47 54 1 1 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 <nil>}
+[Gimme]2021/04/20  2021/04/20 09:55:58 dal_timeline.go:48 ▶ [DEBUG] ready to insert  {0 7 46 54 1 1 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 2021-04-20 09:55:58.583619 +0800 CST m=+60.203970802 <nil>}

@@ -1,0 +1,779 @@
+[Gimme]2021/04/19  2021/04/19 10:13:37 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:14:32 shortCut.go:9 ▶ [DEBUG] 53a6cfe9-11dd-4eb4-be59-3f2f226f0d9b  connect
+[Gimme]2021/04/19  2021/04/19 10:14:32 hub.go:165 ▶ [INFO] 用户注册：127.0.0.1:57750  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:18:39 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:18:45 shortCut.go:9 ▶ [DEBUG] 53a6cfe9-11dd-4eb4-be59-3f2f226f0d9b  connect
+[Gimme]2021/04/19  2021/04/19 10:18:45 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57793  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:48:53 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:52:08 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 10:52:08 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58587  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:52:08 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:52:08 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:52:18 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:52:18 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:52:57 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 10:52:57 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58807  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 10:52:57 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:52:57 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:53:07 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:07 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:08 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 10:53:08 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58856  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 10:53:08 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:53:08 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:53:18 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:18 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:18 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:18 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:53:39 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:58587  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:53:39 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:58807  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 10:53:39 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:54:00 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 10:54:00 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59084  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:54:00 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:00 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:04 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 10:54:04 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59102  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 10:54:04 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:04 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:10 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:10 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:14 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:14 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:22 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 10:54:22 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59182  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 10:54:22 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:22 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 10:54:32 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:32 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:32 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:32 client.go:83 ▶ [INFO] 用户<0> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:54:44 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:59084  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:54:44 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:59182  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:172 ▶ [INFO] connId: %!s(int64=0), receive msg:
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:96 ▶ [NOTICE] 注销用户 0 
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:54:44 client.go:87 ▶ [ERROR] Client 0 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 10:58:34 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 11:00:01 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 11:00:23 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:00:23 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59901  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:00:23 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:00:23 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:00:27 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 11:00:27 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59919  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:00:27 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:00:27 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:00:33 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:00:33 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:00:37 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:00:37 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:00:54 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:00:54 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:60035  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:00:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:00:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:01:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:01:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:01:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:01:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:11:08 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:59901  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:11:08 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:11:08 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:59919  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 11:15:36 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:15:36 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:63742  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:15:36 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:15:36 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:15:39 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 11:15:39 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:63756  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:15:39 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:15:39 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:15:46 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:15:46 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:15:49 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:15:49 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:16:46 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:63742  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:16:46 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:63756  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 11:16:46 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:16:57 ws_connect.go:36 ▶ [ERROR] 获取链接失败 :resp parse error :json: cannot unmarshal bool into Go struct field BindResponseJson.data of type dto.FORM
+[Gimme]2021/04/19  2021/04/19 11:16:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64105  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:16:59 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:16:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:16:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:05 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 11:17:05 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64133  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:17:05 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:05 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:15 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:15 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:17:18 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:64133  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:17:18 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:64105  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 11:17:18 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:17:21 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:17:21 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64201  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:17:21 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:21 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:23 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 11:17:23 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64215  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:17:23 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:23 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:17:31 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:31 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:33 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:33 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:17:58 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:64201  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 11:17:58 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:64215  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 11:17:58 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 11:18:04 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 11:18:04 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64389  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 11:18:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:18:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:18:11 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 11:18:11 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64423  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 11:18:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:18:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 11:18:14 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:18:14 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:18:21 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 11:18:21 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:16:20 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:16:53 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:18:46 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:21:14 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:21:46 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:21:46 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:54739  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:21:46 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:21:46 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:21:53 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:21:53 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:54800  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:21:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:21:53 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:21:56 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:21:56 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:22:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:22:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:29:36 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:29:49 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:29:49 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56849  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:29:49 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:29:49 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:29:51 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:29:51 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56862  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:29:51 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:29:51 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:29:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:29:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:30:02 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:30:02 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:32:59 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:33:21 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:33:21 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57738  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:33:21 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:21 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:24 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:33:24 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57753  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:33:24 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:24 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:32 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:33:32 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:33:35 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:33:35 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:33:43 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:33:43 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57835  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:33:43 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:43 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:33:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:33:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:09 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:36:17 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:36:17 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57888  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:36:17 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:17 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:20 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:36:20 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57891  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:36:20 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:20 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:27 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:27 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:31 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:31 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:32 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:36:32 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57894  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:36:32 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:32 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:42 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:36:42 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57921  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:36:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:36:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:36:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:37:52 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:37:52 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58207  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:37:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:37:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:37:59 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:37:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58237  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:37:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:37:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:38:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:38:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:57891  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:57894  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:38:26 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:38:39 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:38:39 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58412  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:38:39 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:38:39 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:38:42 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:38:42 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58423  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:38:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:38:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:38:49 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:38:49 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:38:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:38:53 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:41:53 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:58412  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:41:53 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:41:53 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:58423  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 16:42:09 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:42:09 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59281  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:42:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:42:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:42:11 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:42:11 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59296  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:42:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:42:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:42:19 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:42:19 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:42:21 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:42:21 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:45:30 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000370b00} 0 [] 0 0 0 0   0 }
+[Gimme]2021/04/19  2021/04/19 16:49:01 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:49:01 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:49:01 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:49:01 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:59296  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:49:01 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:49:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 16:49:04 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 16:49:04 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 16:49:04 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:59281  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 16:49:04 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 16:49:09 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 16:49:09 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:61046  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 16:49:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:49:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:49:15 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 16:49:15 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:61071  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 16:49:15 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:49:15 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 16:49:25 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 16:49:25 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:15:38 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:16:15 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:16:34 ws_connect.go:36 ▶ [ERROR] 获取链接失败 :resp parse error :json: cannot unmarshal bool into Go struct field BindResponseJson.data of type dto.FORM
+[Gimme]2021/04/19  2021/04/19 18:16:40 ws_connect.go:36 ▶ [ERROR] 获取链接失败 :resp parse error :json: cannot unmarshal bool into Go struct field BindResponseJson.data of type dto.FORM
+[Gimme]2021/04/19  2021/04/19 18:17:09 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:17:12 ws_connect.go:36 ▶ [ERROR] 获取链接失败 :resp parse error :json: cannot unmarshal bool into Go struct field BindResponseJson.data of type dto.FORM
+[Gimme]2021/04/19  2021/04/19 18:17:31 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:17:31 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64038  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:17:31 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:17:31 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:17:41 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:17:41 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64085  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:17:41 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:17:41 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:17:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:17:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:17:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:17:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:19:25 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:19:33 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:19:33 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64589  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:19:33 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:19:33 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:19:35 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:19:35 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:64596  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:19:35 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:19:35 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:19:44 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:19:44 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:19:45 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:19:45 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:21:13 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:21:18 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:21:18 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:65046  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:21:18 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:21:18 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:21:26 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:21:26 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:65081  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:21:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:21:26 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:21:29 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:21:29 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:21:36 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:21:36 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:27:46 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:27:57 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50514  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:27:57 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:27:57 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:27:57 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:28:00 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:28:00 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50530  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:28:00 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:28:00 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 18:28:03 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:50530  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 18:28:03 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 18:28:05 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:28:05 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50555  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:28:05 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:28:05 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:28:15 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:28:15 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:29:05 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:29:14 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:29:14 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50860  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:29:14 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:29:14 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:29:24 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:29:24 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:30:45 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:30:53 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:30:53 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:51423  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:30:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:30:53 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:31:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:31:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:31:39 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:31:50 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:31:50 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:31:56 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:31:56 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:51698  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:31:56 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:31:56 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:31:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 18:31:59 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 18:31:59 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 18:31:59 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:51698  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 18:31:59 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 18:32:04 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:32:04 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:51740  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:32:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:32:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:32:15 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:32:15 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:41:49 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:41:54 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:41:54 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:54352  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:41:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:41:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:42:01 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:42:01 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:54388  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:42:01 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:42:01 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:42:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:42:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:42:12 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:42:12 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:46:55 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 18:46:55 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 18:46:55 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 18:46:55 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 18:46:55 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:54352  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:46:59 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:46:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:55949  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:46:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:46:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:47:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:47:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:47:38 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:47:38 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:47:45 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:47:45 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56153  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:47:45 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:47:45 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:47:49 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:47:49 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56176  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:47:49 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:47:49 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:47:55 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:47:55 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:48:00 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:48:00 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:49:05 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:49:05 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:49:10 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:49:10 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56516  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:49:10 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:49:10 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:49:14 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:49:14 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56535  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:49:14 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:49:14 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:49:20 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:49:20 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:49:25 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:49:25 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:49:55 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:49:55 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:49:57 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:49:57 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:56743  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:49:57 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:49:57 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:50:07 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:50:07 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:50:33 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:50:33 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:50:45 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:50:45 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:51:34 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:51:34 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57155  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:51:34 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:51:34 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:51:44 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:51:44 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:52:29 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:52:29 shortCut.go:9 ▶ [DEBUG] allow all
+[Gimme]2021/04/19  2021/04/19 18:52:32 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:52:32 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57409  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:52:32 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:52:32 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:52:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:52:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:53:53 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:53:56 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:53:56 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57791  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:53:56 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:53:56 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:53:59 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:53:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57811  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:53:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:53:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:54:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:54:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:54:47 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:54:55 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:54:55 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:58046  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:54:55 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:54:55 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:55:05 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:55:05 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:56:18 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:56:39 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:57:42 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:58:57 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:59:01 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:59:01 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59180  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:59:01 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:01 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:59:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:59:31 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:59:47 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 18:59:47 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59393  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 18:59:47 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:47 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:54 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 18:59:54 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:59419  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 18:59:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 18:59:57 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 18:59:57 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:00:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:00:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:03:10 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:03:24 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:03:24 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:60388  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:03:24 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:03:24 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:03:26 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:03:26 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:60411  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:03:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:03:26 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:03:34 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:03:34 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:03:37 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:03:37 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:04:03 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:04:10 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:04:10 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:60609  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:04:10 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:04:10 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:04:12 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:04:12 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:60616  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:04:12 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:04:12 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:04:20 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:04:20 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:04:23 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:04:23 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:06:42 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:06:49 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:06:49 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:61372  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:06:49 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:06:49 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:06:52 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:06:52 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:61387  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:06:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:06:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:06:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:06:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:07:03 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:07:03 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:10:27 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:10:32 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:10:32 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:62397  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:10:32 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:10:32 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:10:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:10:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:15:40 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:15:49 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:15:52 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:15:52 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:63764  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:15:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:15:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:16:02 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:16:02 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:17:37 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:29:08 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:29:08 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50860  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:29:08 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:29:08 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:29:11 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:29:11 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:50875  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:29:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:29:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:29:18 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:29:18 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:29:22 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:29:22 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:29:51 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc0000e5600} 0 [] 1618831791448631000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:30:01 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:30:01 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:30:33 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc0000e5600} 0 [] 1618831833265128000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:30:43 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:30:43 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:31:47 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:32:01 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:32:01 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:51663  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:32:01 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:32:01 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:32:04 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:32:04 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:51674  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:32:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:32:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:32:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:32:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:32:13 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618831933360095000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:32:23 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:32:23 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:33:15 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618831995818978000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:33:26 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:33:26 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:35:21 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832121401075000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:35:31 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:35:31 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:36:16 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832176582342000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:36:27 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:36:27 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:36:49 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832209625434000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:37:00 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:37:00 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:38:04 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832284677816000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:38:15 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:38:15 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 19:39:24 hub.go:176 ▶ [INFO] 用户<4c91a61c-8316-4c8e-91ca-acc1c3a79352>注销：127.0.0.1:51663  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:39:24 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:39:40 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:
+[Gimme]2021/04/19  2021/04/19 19:39:40 client.go:176 ▶ [ERROR] error: websocket: close 1001 (going away)
+[Gimme]2021/04/19  2021/04/19 19:39:40 client.go:96 ▶ [NOTICE] 注销用户 123 
+[Gimme]2021/04/19  2021/04/19 19:39:40 hub.go:176 ▶ [INFO] 用户<cd5e0fbb-c616-48dc-83a1-bab446e42942>注销：127.0.0.1:51674  当前用户数量：0
+[Gimme]2021/04/19  2021/04/19 19:39:40 client.go:87 ▶ [ERROR] Client 123 正常关闭 err:context canceled
+[Gimme]2021/04/19  2021/04/19 19:39:54 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:39:54 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:53738  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:39:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:39:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:39:59 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:39:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:53761  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:39:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:39:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:40:04 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:40:04 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:40:17 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:40:17 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:41:00 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:41:00 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:42:25 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832545808921000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:42:31 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832551806562000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 }
+[Gimme]2021/04/19  2021/04/19 19:42:41 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:42:41 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:44:18 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832658168754000 1 0 123 cd5e0fbb-c616-48dc-83a1-bab446e42942 4c91a61c-8316-4c8e-91ca-acc1c3a79352 1 {"content":"helloxx ","created_at":"2021-04-19T19:44:18.007093+08:00","id":143,"message_type":1,"seq":41,"timeline_id":6}}
+[Gimme]2021/04/19  2021/04/19 19:44:28 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:44:28 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:45:01 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000368b00} 0 [] 1618832701243493000 1 0 123 4c91a61c-8316-4c8e-91ca-acc1c3a79352 cd5e0fbb-c616-48dc-83a1-bab446e42942 1 {"content":"hello xxx","created_at":"2021-04-19T19:45:01.090896+08:00","id":146,"message_type":1,"seq":43,"timeline_id":4}}
+[Gimme]2021/04/19  2021/04/19 19:45:11 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:45:11 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:45:42 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:45:55 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:45:59 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:55409  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:45:59 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:45:59 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:45:59 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:46:02 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:46:02 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:55425  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:46:02 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:46:02 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:46:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:46:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:46:11 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc0000e5600} 0 [] 1618832771907060000 1 0 123 cd5e0fbb-c616-48dc-83a1-bab446e42942 4c91a61c-8316-4c8e-91ca-acc1c3a79352 1 {"content":"helloxx xx","created_at":"2021-04-19T19:46:11.750871+08:00","id":149,"message_type":1,"seq":43,"timeline_id":6}}
+[Gimme]2021/04/19  2021/04/19 19:46:11 shortCut.go:9 ▶ [DEBUG] {"content":"helloxx xx","created_at":"2021-04-19T19:46:11.750871+08:00","id":149,"message_type":1,"seq":43,"timeline_id":6}
+[Gimme]2021/04/19  2021/04/19 19:46:12 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:46:12 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:46:21 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:46:21 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:47:33 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:47:39 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:47:39 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:55853  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:47:39 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:47:39 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:47:41 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:47:41 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:55864  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:47:41 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:47:41 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:47:44 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc0000e5600} 0 [] 1618832864106090000 1 0 123 cd5e0fbb-c616-48dc-83a1-bab446e42942 4c91a61c-8316-4c8e-91ca-acc1c3a79352 1 {"content":"helloxx xx","created_at":"2021-04-19T19:47:43.949677+08:00","id":152,"message_type":1,"seq":44,"timeline_id":6}}
+[Gimme]2021/04/19  2021/04/19 19:47:44 shortCut.go:9 ▶ [DEBUG] {"content":"helloxx xx","created_at":"2021-04-19T19:47:43.949677+08:00","id":152,"message_type":1,"seq":44,"timeline_id":6}
+[Gimme]2021/04/19  2021/04/19 19:47:44 shortCut.go:9 ▶ [DEBUG] {"content":"helloxx xx","created_at":"2021-04-19T19:47:43.949677+08:00","id":152,"message_type":1,"seq":44,"timeline_id":6}
+[Gimme]2021/04/19  2021/04/19 19:47:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:47:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:47:54 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:47:54 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:53:08 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 19:53:40 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/19  2021/04/19 19:53:40 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57808  当前用户数量：1
+[Gimme]2021/04/19  2021/04/19 19:53:40 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:53:40 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:53:42 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/19  2021/04/19 19:53:42 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:57819  当前用户数量：2
+[Gimme]2021/04/19  2021/04/19 19:53:42 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:53:42 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/19  2021/04/19 19:53:46 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc00036eb00} 0 [] 1618833226021342000 1 0 123 cd5e0fbb-c616-48dc-83a1-bab446e42942 4c91a61c-8316-4c8e-91ca-acc1c3a79352 1 {"content":"hello","created_at":"2021-04-19T19:53:45.864337+08:00","id":155,"message_type":1,"seq":45,"timeline_id":6}}
+[Gimme]2021/04/19  2021/04/19 19:53:46 shortCut.go:9 ▶ [DEBUG] {"content":"hello","created_at":"2021-04-19T19:53:45.864337+08:00","id":155,"message_type":1,"seq":45,"timeline_id":6}
+[Gimme]2021/04/19  2021/04/19 19:53:46 shortCut.go:9 ▶ [DEBUG] {hello 1 6 45 155 2021-04-19 19:53:45.864337 +0800 CST}
+[Gimme]2021/04/19  2021/04/19 19:53:46 shortCut.go:9 ▶ [DEBUG] {hello 1 6 45 155 2021-04-19 19:53:45.864337 +0800 CST}
+[Gimme]2021/04/19  2021/04/19 19:53:52 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:53:52 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:53:56 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/19  2021/04/19 19:53:56 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/20  2021/04/20 09:54:37 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/20  2021/04/20 09:55:50 shortCut.go:9 ▶ [DEBUG] 4c91a61c-8316-4c8e-91ca-acc1c3a79352  connect
+[Gimme]2021/04/20  2021/04/20 09:55:50 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:52773  当前用户数量：1
+[Gimme]2021/04/20  2021/04/20 09:55:50 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/20  2021/04/20 09:55:50 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/20  2021/04/20 09:55:53 shortCut.go:9 ▶ [DEBUG] cd5e0fbb-c616-48dc-83a1-bab446e42942  connect
+[Gimme]2021/04/20  2021/04/20 09:55:53 hub.go:166 ▶ [INFO] 用户注册：127.0.0.1:52794  当前用户数量：2
+[Gimme]2021/04/20  2021/04/20 09:55:53 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"id":"a1b2c3"}
+[Gimme]2021/04/20  2021/04/20 09:55:53 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"id":"a1b2c3"}
+[Gimme]2021/04/20  2021/04/20 09:55:58 shortCut.go:9 ▶ [DEBUG] {{{} [] [] 0xc000372b00} 0 [] 1618883758687676000 1 0 123 cd5e0fbb-c616-48dc-83a1-bab446e42942 4c91a61c-8316-4c8e-91ca-acc1c3a79352 1 {"content":"hello","created_at":"2021-04-20T09:55:58.583619+08:00","id":157,"message_type":1,"seq":46,"timeline_id":6}}
+[Gimme]2021/04/20  2021/04/20 09:55:58 shortCut.go:9 ▶ [DEBUG] {"content":"hello","created_at":"2021-04-20T09:55:58.583619+08:00","id":157,"message_type":1,"seq":46,"timeline_id":6}
+[Gimme]2021/04/20  2021/04/20 09:55:58 shortCut.go:9 ▶ [DEBUG] {hello 1 6 46 157 2021-04-20 09:55:58.583619 +0800 CST}
+[Gimme]2021/04/20  2021/04/20 09:55:58 shortCut.go:9 ▶ [DEBUG] {hello 1 6 46 157 2021-04-20 09:55:58.583619 +0800 CST}
+[Gimme]2021/04/20  2021/04/20 09:56:03 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/20  2021/04/20 09:56:03 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}
+[Gimme]2021/04/20  2021/04/20 09:56:09 client.go:172 ▶ [INFO] connId: %!s(int64=123), receive msg:{"heart":1}
+[Gimme]2021/04/20  2021/04/20 09:56:09 client.go:83 ▶ [INFO] 用户<123> 收到消息：{"heart":1}

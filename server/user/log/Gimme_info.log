@@ -1,0 +1,109 @@
+[Gimme]2021/04/19  2021/04/19 09:21:27 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:21:27 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:28:07 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:28:08 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:30:01 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:30:01 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:30:35 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:30:35 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:31:17 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:31:17 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:31:19 shortCut.go:9 ▶ [DEBUG] {00000000-0000-0000-0000-000000000000   0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} cache not find
+[Gimme]2021/04/19  2021/04/19 09:32:04 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:32:05 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:32:08 shortCut.go:9 ▶ [DEBUG] get key  cache_tag_user_
+[Gimme]2021/04/19  2021/04/19 09:32:08 shortCut.go:9 ▶ [DEBUG] {00000000-0000-0000-0000-000000000000   0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC <nil>} cache not find
+[Gimme]2021/04/19  2021/04/19 09:32:08 shortCut.go:9 ▶ [DEBUG] set key  cache_tag_user_admin
+[Gimme]2021/04/19  2021/04/19 09:33:48 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 09:33:48 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 09:33:50 shortCut.go:9 ▶ [DEBUG] get key  cache_tag_user_admin
+[Gimme]2021/04/19  2021/04/19 09:33:50 shortCut.go:9 ▶ [DEBUG] {53a6cfe9-11dd-4eb4-be59-3f2f226f0d9b admin admin 0 2021-04-19 09:28:12 +0800 CST 2021-04-19 09:28:12 +0800 CST <nil>} <nil>
+[Gimme]2021/04/19  2021/04/19 09:33:50 shortCut.go:9 ▶ [DEBUG] user redis
+[Gimme]2021/04/19  2021/04/19 10:13:01 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:13:01 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 10:13:56 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 10:31:52 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:31:52 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 10:32:45 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 10:48:38 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 10:48:38 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 10:53:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 10:54:04 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:00:03 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 11:00:03 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 11:00:23 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:00:27 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:15:36 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:15:39 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:16:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:17:05 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:17:21 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:17:23 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:18:04 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 11:18:11 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:21:09 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 16:21:09 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 16:29:48 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:29:51 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:33:21 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:33:24 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:36:17 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:36:20 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:38:39 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:38:42 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:42:08 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:42:11 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:49:09 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 16:49:15 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:17:28 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/19  2021/04/19 18:17:28 shortCut.go:9 ▶ [DEBUG] db init success
+[Gimme]2021/04/19  2021/04/19 18:19:33 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:19:35 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:21:18 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:21:25 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:27:57 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:28:00 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:28:05 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:29:14 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:30:53 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:31:56 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:32:04 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:41:54 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:42:01 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:46:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:47:45 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:47:49 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:49:10 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:49:14 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:49:57 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:51:34 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:52:32 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:53:56 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:53:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:54:55 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:59:01 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:59:47 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 18:59:53 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:03:24 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:03:26 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:04:10 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:04:12 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:06:49 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:06:52 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:10:32 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:15:52 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:32:01 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:32:04 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:39:54 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:39:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:45:59 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:46:02 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:47:39 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:47:41 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:53:40 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/19  2021/04/19 19:53:42 shortCut.go:9 ▶ [DEBUG] use user redis
+[Gimme]2021/04/20  2021/04/20 08:52:36 cache.go:24 ▶ [CRITIC] 连接redis 失败 dial tcp 49.4.114.179:6379: connect: connection refused
+[Gimme]2021/04/20  2021/04/20 08:52:41 cache.go:24 ▶ [CRITIC] 连接redis 失败 dial tcp 49.4.114.179:6379: connect: connection refused
+[Gimme]2021/04/20  2021/04/20 09:55:04 cache.go:24 ▶ [CRITIC] 连接redis 失败 dial tcp 49.4.114.179:6379: connect: connection refused
+[Gimme]2021/04/20  2021/04/20 09:55:14 shortCut.go:9 ▶ [DEBUG] redis connect
+[Gimme]2021/04/20  2021/04/20 09:55:14 shortCut.go:9 ▶ [DEBUG] db init success
